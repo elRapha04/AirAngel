@@ -1,5 +1,20 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ecmel.vscode-html-css",
+        "ms-vscode.live-server",
+        "ritwickdey.LiveServer",
+        "esbenp.prettier-vscode",
+        "Zignd.html-css-class-completion",
+        "naumovs.color-highlight",
+        "formulahendry.auto-rename-tag",
+        "formulahendry.auto-close-tag",
+        "dbaeumer.vscode-eslint"
+      ]
+    }
   }
 }
