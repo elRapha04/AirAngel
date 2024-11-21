@@ -1,4 +1,29 @@
 body {
     background-color: #1E2756;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+#title {
+    color:white;
+}
+
+.form-container {
+    border: 3px solid white;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    padding: 30px;
+}
+
+#signup {
+    margin: 10px;
+    color:white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
 }

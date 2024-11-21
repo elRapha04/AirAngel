@@ -5,19 +5,22 @@
     </head>
 
     <body>
-        <h1>
-            This is the Sign Up page.
+        <h1 id="title">
+            (This is the Sign Up page.)
         </h1>
 
         <div class="form-container">
-            <h1>Sign Up</h1>
-            <input id="username" type="text" placeholder="Username">
-            <input id="password" type="text" placeholder="Password">
-            <button>
-                <a href="#">
-                    Submit
-                </a>
-            </button>
+            <h1 id="signup">Sign Up</h1>
+
+            <form action="">
+                <label for="username"></label>
+                <input type="text" id="username" name="username" placeholder="Username" required>
+                <label for="email"></label>
+                <input type="text" id="email" name="email" placeholder="Email" required>
+                <label for="password"></label>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+                <input type="submit" value="Submit">
+            </form>
         </div>
 
         <button>
