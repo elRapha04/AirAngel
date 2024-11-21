@@ -3,10 +3,6 @@ body {
     display: block;
 }
 
-header {
-
-}
-
 .navbar {
     background-color: gray;
     display: flex;
@@ -14,10 +10,6 @@ header {
     justify-content: space-between;
     padding: 20px;
     margin: none;
-}
-
-.navdiv {
-
 }
 
 #navbar-logo {
